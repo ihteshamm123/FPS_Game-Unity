@@ -22,7 +22,7 @@ public class Attack : MonoBehaviour
 
         if (other.gameObject.name == "Ethan(Clone)") {
             print("Colliding!");
-        health = health - 10;
+        health = health - 25;
             print("Health : " + health);
     }
         print("Attack-Health : " + other.gameObject) ;

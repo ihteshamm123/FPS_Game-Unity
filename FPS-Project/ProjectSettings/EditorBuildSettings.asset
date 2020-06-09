@@ -9,15 +9,15 @@ EditorBuildSettings:
     path: Assets/MyScenes/Menu.unity
     guid: f94dd0f9a54d5654b980451bebb5bdbf
   - enabled: 1
-    path: Assets/MyScenes/Winning.unity
-    guid: dc95508130668bb4a9bde5346db31c92
-  - enabled: 1
-    path: Assets/MyScenes/EndGame.unity
-    guid: e880bbd83329c34428ff0d471c10bf37
-  - enabled: 1
     path: Assets/Scenes/Haris.unity
     guid: 1485ba55a8bbcc8459506656375e3f29
   - enabled: 1
     path: Assets/MyScenes/Ihtesham.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/MyScenes/EndGame.unity
+    guid: e880bbd83329c34428ff0d471c10bf37
+  - enabled: 1
+    path: Assets/MyScenes/Winning.unity
+    guid: dc95508130668bb4a9bde5346db31c92
   m_configObjects: {}
