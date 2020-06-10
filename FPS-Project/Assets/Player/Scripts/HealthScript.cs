@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class HealthScript : MonoBehaviour
 {
     public static float health;
@@ -26,9 +26,9 @@ public class HealthScript : MonoBehaviour
             print("Health : " + health);
         }
         print("Health : " + other.gameObject);
-        if (health == 10)
+        if (health == 0)
         {
-            Application.Quit();
+            SceneManager.LoadScene("EndGame");
         }
 
     }
