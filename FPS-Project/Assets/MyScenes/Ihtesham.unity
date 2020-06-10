@@ -340,7 +340,7 @@ PrefabInstance:
     - target: {fileID: 246147427554184731, guid: 1fbf164e473b03c4d91ccba4e1602611,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 353.26
+      value: 603
       objectReference: {fileID: 0}
     - target: {fileID: 246147427554184731, guid: 1fbf164e473b03c4d91ccba4e1602611,
         type: 3}
@@ -350,7 +350,7 @@ PrefabInstance:
     - target: {fileID: 246147427554184731, guid: 1fbf164e473b03c4d91ccba4e1602611,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 313.4
+      value: 851
       objectReference: {fileID: 0}
     - target: {fileID: 246147427554184731, guid: 1fbf164e473b03c4d91ccba4e1602611,
         type: 3}
@@ -613,17 +613,17 @@ PrefabInstance:
     - target: {fileID: 6002332064398345812, guid: b62bb4a747a58894b8785b7ac8de7bfe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 752
+      value: 709
       objectReference: {fileID: 0}
     - target: {fileID: 6002332064398345812, guid: b62bb4a747a58894b8785b7ac8de7bfe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.55
+      value: -383
       objectReference: {fileID: 0}
     - target: {fileID: 6002332064398345812, guid: b62bb4a747a58894b8785b7ac8de7bfe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 890
+      value: 361
       objectReference: {fileID: 0}
     - target: {fileID: 6002332064398345812, guid: b62bb4a747a58894b8785b7ac8de7bfe,
         type: 3}
@@ -937,7 +937,7 @@ PrefabInstance:
     - target: {fileID: 8348185928260813032, guid: 024ac5befe453b54eb0075ee50d7bfa3,
         type: 3}
       propertyPath: Cube_Enemy_Count
-      value: 30
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8348185928260813032, guid: 024ac5befe453b54eb0075ee50d7bfa3,
         type: 3}

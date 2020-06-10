@@ -9,6 +9,7 @@ public class SceneChange : MonoBehaviour
     //}
 	void Start()
     	{
+	Time.timeScale = 1; 
      	   Cursor.visible =true;
     	}
 

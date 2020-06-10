@@ -17,6 +17,7 @@ public class followPlayer : MonoBehaviour
     void Start()
     {
 	Cursor.visible = true;
+	Time.timeScale = 1; 
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 

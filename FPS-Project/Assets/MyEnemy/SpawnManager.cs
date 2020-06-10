@@ -8,7 +8,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangeX = 900;
     private float spawnPosZ = 900;
     private float startDelay = 2;
-    private float spawnInterval = 9f;
+    public float spawnInterval = 9f;
     public float EnemyCount;
     
     [SerializeField]

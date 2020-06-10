@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Attack : MonoBehaviour
 {
     public static float health ;
@@ -29,10 +29,10 @@ public class Attack : MonoBehaviour
             print("Health : " + health);
     }
         print("Attack-Health : " + other.gameObject) ;
-        if (health == 10)
+        if (health == 0)
         {
             //Time.timeScale = 0;
-            Application.Quit();
+            SceneManager.LoadScene("EndGame");
         }
         else 
         {
