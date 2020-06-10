@@ -4,7 +4,7 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.AI;
 //using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class followPlayer : MonoBehaviour
 {
@@ -16,6 +16,7 @@ public class followPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+	Cursor.visible = true;
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
@@ -39,7 +40,9 @@ public class followPlayer : MonoBehaviour
         }
         if (SCORE == 300)
         {
-            Application.LoadLevel("Winning");
+		Destroy(gameObject);
+		Destroy(other.gameObject);
+            SceneManager.LoadScene("Winning");
         }
     }
 }

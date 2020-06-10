@@ -1,27 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
     //   public void TimeOver()
     //  {
     //}
+	void Start()
+    	{
+     	   Cursor.visible =true;
+    	}
 
     public void FirstLevel()
     {
         Debug.Log("first Level!");
-        Application.LoadLevel("Haris");
+        SceneManager.LoadScene("Haris");
     }
     public void Restart()
     {
         Debug.Log("Restart!");
-        Application.LoadLevel("Menu");
+        SceneManager.LoadScene("Menu");
     }
     public void SndLevel()
     {
         Debug.Log("2nd Level!");
-        Application.LoadLevel("Ihtesham");
+        SceneManager.LoadScene("Ihtesham");
     }
 
     void Update()

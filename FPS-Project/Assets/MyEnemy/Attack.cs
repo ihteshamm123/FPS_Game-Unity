@@ -20,6 +20,9 @@ public class Attack : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
 
+	if(followPlayer.SCORE == 300){
+		
+	}
         if (other.gameObject.name == "Ethan(Clone)") {
             print("Colliding!");
         health = health - 25;
@@ -33,8 +36,6 @@ public class Attack : MonoBehaviour
         }
         else 
         {
-          
-           
             //col.gameObject.SetActiveRecursively(true);
         }
 
